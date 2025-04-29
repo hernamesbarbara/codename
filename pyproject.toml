@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codename"
+license = {text = "MIT"}
+version = "0.1.0"
+description = "A simple random codename generator using system dictionary files."
+authors = [{name = "austin", email = "tips@cia.lol"}]
+keywords = ["codename", "random", "name generator", "cli"]
+dependencies = [
+  "docopt~=0.6.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/hernamesbarbara/codename"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["codename*"]
+
+[project.scripts]
+codename = "codename.cli:main"
