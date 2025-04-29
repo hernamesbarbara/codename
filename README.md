@@ -6,10 +6,11 @@ Each codename is made by combining random words, like `silent-harbor` or `lucky-
 
 ## Installation
 
-### From PyPI (recommended)
+### From PyPI (NOT IMPLEMENTED YET)
 
 ```bash
-pip install codename-cli
+# TODO - not implemented PyPi yet
+# pip install codename-cli
 ```
 
 ### From source
